@@ -1,0 +1,14 @@
+*.pyc
+.DS_Store
+
+/temp/
+/.project
+/.pydevproject
+.git/*
+pretrained_models/*
+checkpoints/*
+connect4/*
+gobang/*
+othello/*
+tictactoe/*
+???

@@ -1,0 +1,118 @@
+{
+    "numIters": 1,
+    "save_model": false,
+    "checkpoint": null,
+    "load_model": true,
+    "load_folder_file": [
+        "/home/zanghy/ICC/chess-agent/SCC",
+        "checkpoint_mult.pth.tar"
+    ],
+
+    "comment_training": false,
+    "comment_chess_training": false,
+    "chess_training": false,
+    "nn_args": {
+        "epochs": 0,
+        "batch_size": 128,
+        "sample_batches": 0,
+        
+        "models": {
+            "chess": "Conv"
+        },
+        "lr": 0.0001,
+        "num_channels": 512,
+        "dropout": 0.0,
+
+        "text_lr": 0.0001,
+        "text_op": "Adam",
+        "text_norm": 1.0,
+        "text_layers": 2,
+        "text_dropout": 1.0,
+        "text_dict": "/home/zanghy/ICC/data/mycrawler/data/text.dict",
+        "action_desc_length": 8,
+        "max_text_length": 50,
+        "is_train": true,
+        "use_bs": false,
+        "beam_width": 10
+    },
+    
+    "use_self_play": false,
+    "tempThreshold": 0,
+    "numMCTSSims": 50,
+    "cpuct": 2.0,
+    "maxlenOfQueue": 20000,
+    
+    "use_pitting": false,
+    "arenaCompare": 0,
+    "updateThreshold": 0.55,
+    
+    "train_text_files": [
+        "/home/zanghy/ICC/data/mycrawler/data/",
+        [
+            "train.pickle",
+            1
+        ]
+    ],
+    "valid_text_files": [
+        "/home/zanghy/ICC/data/mycrawler/data/",
+        [
+            "valid.pickle"
+        ]
+    ],
+    "sample_files": 10,
+    "train_chess_files": [
+        "replays/",
+        [
+            "ficsgamesdb_201807_standard2000_nomovetimes_38608.pickle",
+            2,
+            "ficsgamesdb_201806_standard2000_nomovetimes_38609.pickle",
+            2,
+            "ficsgamesdb_201805_standard2000_nomovetimes_38610.pickle",
+            2,
+            "ficsgamesdb_201804_standard2000_nomovetimes_38611.pickle",
+            2,
+            "ficsgamesdb_201803_standard2000_nomovetimes_38612.pickle",
+            2,
+            "ficsgamesdb_201802_standard2000_nomovetimes_38613.pickle",
+            2,
+            "ficsgamesdb_201801_standard2000_nomovetimes_38614.pickle",
+            2,
+            "ficsgamesdb_2017_standard2000_nomovetimes_38590.pickle",
+            13,
+            "ficsgamesdb_2016_standard2000_nomovetimes_38591.pickle",
+            12,
+            "ficsgamesdb_2015_standard2000_nomovetimes_38592.pickle",
+            13,
+            "ficsgamesdb_2014_standard2000_nomovetimes_38593.pickle",
+            12,
+            "ficsgamesdb_2013_standard2000_nomovetimes_38594.pickle",
+            12,
+            "ficsgamesdb_2012_standard2000_nomovetimes_38589.pickle",
+            11,
+            "ficsgamesdb_2011_standard2000_nomovetimes_38595.pickle",
+            10,
+            "ficsgamesdb_2010_standard2000_nomovetimes_38596.pickle",
+            9,
+            "ficsgamesdb_2009_standard2000_nomovetimes_38597.pickle",
+            7,
+            "ficsgamesdb_2008_standard2000_nomovetimes_38598.pickle",
+            4,
+            "ficsgamesdb_2007_standard2000_nomovetimes_38599.pickle",
+            3,
+            "ficsgamesdb_2006_standard2000_nomovetimes_38600.pickle",
+            3,
+            "ficsgamesdb_2005_standard2000_nomovetimes_38601.pickle",
+            3,
+            "ficsgamesdb_2004_standard2000_nomovetimes_38602.pickle",
+            4,
+            "ficsgamesdb_2003_standard2000_nomovetimes_38603.pickle",
+            4,
+            "ficsgamesdb_2002_standard2000_nomovetimes_38604.pickle",
+            4,
+            "ficsgamesdb_2001_standard2000_nomovetimes_38605.pickle",
+            3,
+            "ficsgamesdb_2000_standard2000_nomovetimes_38606.pickle",
+            2
+        ]
+    ]
+}
