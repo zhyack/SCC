@@ -1,6 +1,6 @@
 # SCC (Skilled Chess Commentator)
 
-Codes of models and data processing for paper "Automated Chess Commentator Powered by Neural Chess Engine, **Hongyu Zang**, **Zhiwei Yu** and **Xiaojun Wan**, **ACL2019**" will be released in this repo.  
+Codes of models and data processing for paper "Automated Chess Commentator Powered by Neural Chess Engine, **Hongyu Zang**, **Zhiwei Yu** and Xiaojun Wan, **ACL2019**" ([pdf](https://www.aclweb.org/anthology/P19-1597)) will be released in this repo.  
 ([Zhiwei](https://github.com/ArleneYuZhiwei) and me contribute equally in this paper.)
 
 ## Updating
